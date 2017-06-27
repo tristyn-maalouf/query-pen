@@ -1,0 +1,150 @@
+/* v2.0 | 20110126
+  http://meyerweb.com/eric/tools/css/reset/
+  License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+border:none;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* end reset code */
+
+body {
+  background-color: #003366;
+}
+
+.title {
+  margin-top:15px;
+  text-align: center;
+  font-size: 35px;
+  font-family: cursive;
+  font-weight: bold;
+  color: #f4eeee;
+}
+
+.board{
+  text-align: center;
+  margin-top: 15px;
+  width: 840px;
+  height: 580px;
+  border-radius: 20px;
+  background-color: red;
+  margin-left: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+   background-color: #f4eeee;
+   width: 640px;
+   height: 440px;
+   margin-left: 100px;
+   margin-right: 100px;
+   margin-bottom: 20px;
+   overflow: hidden;
+  }
+
+  .buttons {
+    display: inline;
+    width: 640px;
+    margin-left: 300px;
+
+  }
+
+  .buttons #left, .buttons #right {
+    background-color: #f3f3f3;
+    border: none;
+    color: #6d6363;
+    font-size: 11px;
+    font-weight: bolder;
+    padding-top: 1px;
+    padding-bottom: 1px;
+    padding-right: 6px;
+    padding-left: 6px;
+    text-align: center;
+    width: 11em;
+    height: 2.7em;
+    border-radius: 0.25em;
+    margin-top: 30px;
+
+  }
+
+  .buttons #left:hover, .buttons #right:hover {
+    color: black;
+    border-color: black;
+    border-width: medium;
+    box-shadow: 2px 3px 5px 1px #ededed,inset 1px 1px 1px 0.5px #ededed,inset -1px -1px 1px 0.5px #ededed;
+  }
+
+  .buttons #left {
+    float: left;
+    margin-left: 240px;
+  }
+
+  .buttons #right {
+    float: right;
+    margin-right: 200px;
+  }
+
+.row {
+  margin-top: 0px;
+}
+.gridspace {
+  float: left;
+  display: inline;
+  width: 40px;
+  height: 40px;
+  margin: 0px;
+  border-color: black;
+}
+
+
+.hovered {
+  background-color: black;
+}
+
+.foot {
+  text-align: center;
+  margin-top: 50px;
+  color: #f4eeee;
+}
